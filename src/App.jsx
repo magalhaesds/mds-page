@@ -14,7 +14,7 @@ function App() {
       <Router> 
         <Header/>
         <Navbar/>
-        <main className='p-4'>
+        <main>
           <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/about' element={<About/>} />
@@ -22,10 +22,6 @@ function App() {
             <Route path='/contact' element={<Contact/>} />
           </Routes>
         </main>
-        <footer className='bg-sky-200 mx-auto h-12 w-64 shadow-md
-        rounded-lg items-center justify-center flex'>
-          <h1 className=''>developed by MagalhaesDS</h1>
-        </footer>
       </Router>
     </>
   )
