@@ -16,10 +16,10 @@ function App() {
         <Navbar/>
         <main className='p-4'>
           <Routes>
-            <Route path='/mds-page/home' element={<Home/>} />
-            <Route path='/mds-page/about' element={<About/>} />
-            <Route path='/mds-page/articles' element={<Articles/>} />
-            <Route path='/mds-page/contact' element={<Contact/>} />
+            <Route path='/' element={<Home/>} />
+            <Route path='/about' element={<About/>} />
+            <Route path='/articles' element={<Articles/>} />
+            <Route path='/contact' element={<Contact/>} />
           </Routes>
         </main>
         <footer className='bg-sky-200 mx-auto h-12 w-64 shadow-md
