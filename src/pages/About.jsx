@@ -26,12 +26,11 @@ function About(){
 
                         <img src={landscape} alt='landscape' className='h-90 w-90 m-auto rounded object-cover opacity-80'/>
 
-                        <h1 className='absolute top-5/7 left-34 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold drop-shadow-lg'>insert text <br/> here </h1>
                         
 
                 </section>
 
-                <section className='p-2'>
+                <section className='p-6'>
 
                         <p className='text-left'>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque voluptatum placeat ab consequuntur adipisci alias. Omnis culpa odio et cupiditate aliquid facilis voluptates, reprehenderit nihil placeat adipisci illo ratione eaque!
