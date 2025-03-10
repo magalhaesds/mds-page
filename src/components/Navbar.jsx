@@ -19,13 +19,13 @@ function Navbar() {
                 {
                     state && (
                         <div className='w-full flex flex-col items-center shadow-md'>
-                            <Link to='/' className='h-12 w-full py-2 text-center bg-red-100'
+                            <Link to='/mds-page/home' className='h-12 w-full py-2 text-center bg-red-100'
                             onClick={() => state(false)}>Home</Link>
-                            <Link to='/about' className='h-12 w-full py-2 text-center bg-red-100'
+                            <Link to='/mds-page/about' className='h-12 w-full py-2 text-center bg-red-100'
                             onClick={() => state(false)}>About</Link>
-                            <Link to='/articles' className='h-12 w-full py-2 text-center bg-red-100'
+                            <Link to='/mds-page/articles' className='h-12 w-full py-2 text-center bg-red-100'
                             onClick={() => state(false)}>Articles</Link>
-                            <Link to='/contact' className='h-12 w-full py-2 text-center bg-red-100'
+                            <Link to='/mds-page/contact' className='h-12 w-full py-2 text-center bg-red-100'
                             onClick={() => state(false)}>Contact</Link>
                         </div>
                     )
