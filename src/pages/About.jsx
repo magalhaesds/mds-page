@@ -1,6 +1,7 @@
+import Skills from '../components/Skills'
 import avatar from '/src/assets/images/avatar.jpg'
 import landscape from '/src/assets/images/landscape.jpeg'
-import { FaReact } from 'react-icons/fa'
+
 
 function About(){
     return(
@@ -24,22 +25,20 @@ function About(){
 
                 <section className=''>
 
-                        <img src={landscape} alt='landscape' className='h-90 w-90 m-auto rounded object-cover opacity-80'/>
-
-                        
+                    <img src={landscape} alt='landscape' className='h-90 w-90 m-auto rounded object-cover opacity-80'/>
 
                 </section>
 
                 <section className='p-6'>
 
-                        <p className='text-left'>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque voluptatum placeat ab consequuntur adipisci alias. Omnis culpa odio et cupiditate aliquid facilis voluptates, reprehenderit nihil placeat adipisci illo ratione eaque!
-                        </p>
+                    <p className='text-left'>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque voluptatum placeat ab consequuntur adipisci alias. Omnis culpa odio et cupiditate aliquid facilis voluptates, reprehenderit nihil placeat adipisci illo ratione eaque!
+                    </p>
 
 
-                        <div>
-                            <h1>tecnologies here</h1>
-                        </div>
+                    <div>
+                        <Skills/>
+                    </div>
 
                 </section>
 

@@ -22,6 +22,9 @@ function App() {
             <Route path='/contact' element={<Contact/>} />
           </Routes>
         </main>
+        <footer className='bg-sky-200 h-12 w-full flex items-center justify-center'>
+          <h1>Desenvolvido por Gustavo Magalhães</h1>
+        </footer>
       </Router>
     </>
   )
